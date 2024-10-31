@@ -1,0 +1,58 @@
+/* Questions front end style */
+
+
+/* Evaluation page */
+.question {
+    border: 2px solid #FF9800;
+    padding: 15px;
+    margin: 10px;
+}
+
+.good_answer, .bad_answer, .question, .result {
+    border-radius: 5px;
+}
+
+.good_answer, .bad_answer {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.good_answer {
+    background-color: #4CAF50;
+    
+}
+
+.bad_answer { 
+    background-color: #F44336;
+}
+
+.result {
+	color: white;
+	background-color: #FF9800;
+	padding: 20px;
+	margin: 10px;
+	text-align: center; 
+}
+
+/* disabled submit button style */
+.questions-wrap input[type="submit"]:disabled{
+    opacity: 0.25;
+}
+
+.questions-wrap .question .thumb{
+    display: inline-block;
+    width: 25%;    
+    opacity: 0.1;
+    transition: opacity 0.5s;
+}
+.questions-wrap .question:hover .thumb{
+    opacity: 1;
+}
+.questions-wrap .answers{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    vertical-align: top;
+    width: 65%;
+}
